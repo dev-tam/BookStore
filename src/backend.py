@@ -48,6 +48,6 @@ def update(id,title,author,year,isbn):
 connect()
 # insert("The Mars","Elon Musk",2068,55568765)
 # delete(4)
-update(3,"The Uranus","Jhon Smooth",1456,98476912)
+# update(3,"The Uranus","Jhon Smooth",1456,98476912)
 print(view())
-# print(search(author="Jhon Smith"))
+print(search(author="Jhon Smith"))
